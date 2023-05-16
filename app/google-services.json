@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "985593956625",
+    "project_id": "eurovisionapi",
+    "storage_bucket": "eurovisionapi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985593956625:android:d232edc5eae8e63f4f24b0",
+        "android_client_info": {
+          "package_name": "com.example.finalandroidproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985593956625-5q1p2g83ojsnd7imdode6mh9p2cpcdli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT9jfFTjB7CsVx2-9dtfc5sbo3j47Dbgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985593956625-5q1p2g83ojsnd7imdode6mh9p2cpcdli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
