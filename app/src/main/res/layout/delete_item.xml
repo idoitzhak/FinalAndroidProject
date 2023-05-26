@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    android:background="#AF66D6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/deleteCountry"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginTop="10sp"
+            android:background="@color/white"
+            android:hint="Country Name"
+            android:padding="10sp" />
+        <Button
+            android:id="@+id/deleteCountry_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_marginTop="15sp"
+            android:backgroundTint="@color/teal_200"
+            android:text="delete by country" />
+        <EditText
+            android:id="@+id/deleteSinger"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginTop="40sp"
+            android:background="@color/white"
+            android:hint="Singer Name"
+            android:padding="10sp" />
+        <Button
+            android:id="@+id/deleteSinger_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_marginTop="15sp"
+            android:backgroundTint="@color/purple_200"
+            android:text="delete by singer" />
+        <EditText
+            android:id="@+id/deleteSong"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginTop="40sp"
+            android:background="@color/white"
+            android:hint="Song Name"
+            android:padding="10sp" />
+        <Button
+            android:id="@+id/deleteSong_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_marginTop="15sp"
+            android:backgroundTint="@color/purple_700"
+            android:text="delete by song" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

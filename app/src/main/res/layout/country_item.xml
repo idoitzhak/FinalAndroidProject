@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:minHeight="80sp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="120sp">
+
+        <ImageView
+            android:id="@+id/pImage"
+            android:layout_width="100sp"
+            android:layout_marginLeft="5sp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:padding="10sp"
+            android:orientation="vertical"
+            android:layout_width="220sp"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="20sp"
+                android:id="@+id/pSinger"
+                android:text="Singer name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="15sp"
+                android:id="@+id/pSong"
+                android:text="Song name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="23sp"
+                android:id="@+id/pCountry"
+                android:text="Country name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/pLink"
+                android:text="Link name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:padding="5sp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="40sp"
+            android:layout_marginTop="20sp"
+            android:id="@+id/pPosition"
+            android:text="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+        <TextView
+            android:textSize="18sp"
+            android:layout_marginTop="5sp"
+            android:id="@+id/pPoints"
+            android:text="4500"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

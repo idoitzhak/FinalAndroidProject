@@ -25,6 +25,26 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity android:name=".Countries"
+            android:exported="false"
+            android:label="Countries" />
+        <activity android:name=".Country"
+            android:exported="false"
+            android:label="Country" />
+        <activity android:name=".CountryAdapter"
+            android:exported="false"
+            android:label="Country Adapter" />
+        <activity android:name=".SearchItem"
+            android:exported="false"
+            android:label="Search" />
+        <activity android:name=".CreateSong"
+            android:exported="false"
+            android:label="Create" />
+        <activity android:name=".DeleteItem"
+            android:exported="false"
+            android:label="Delete" />
+
+
     </application>
 
 </manifest>
